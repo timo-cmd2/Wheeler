@@ -1,4 +1,4 @@
-final class entrypoint(  ) {
+class entrypoint(  ) {
    System.out( "Hello, World" );
 }
 
