@@ -24,6 +24,7 @@ public final class WheelerMain {
 
 /* tokenizer */
 enum TokenType {
+    /* trying to fix this part soon */
     case LeftParen, RightParen
     case LeftBrace, RightBrace
     
@@ -44,21 +45,6 @@ enum TokenType {
     case string
     case number
     case and
-    case Class = "class" /* class */
-    case Else  = "else"
-    case False = "false"
-    case fun
-    case foreach
-    case If = "if"
-    case null
-    case or
-    case stdout
-    case Return = "return"
-    case Super  = "super"
-    case this
-    case True  = "true"
-    case Var   = "var"
-    case While = "while"
 
     case Break
     case eof
