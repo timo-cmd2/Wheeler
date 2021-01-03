@@ -1,0 +1,5 @@
+final class entrypoint(  ) {
+   System.out( "Hello, World" );
+}
+
+let hello = new.entrypoint();
